@@ -1,0 +1,61 @@
+body {
+	font-family: "Nunito", serif;
+	font-optical-sizing: auto;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: conic-gradient(green, blue, red);
+	background-attachment: fixed;
+}
+
+.content {
+	background-image: linear-gradient(to bottom, cornsilk, ivory);
+	backdrop-filter: blur(3px);
+	display: flex;
+	flex-direction: column;
+	max-width: 60%;
+	min-width: 30%;
+	border-radius: 0.6em;
+}
+
+.content > section {
+	padding: 0.6em;
+	max-width: 90%;
+}
+
+p {
+	max-width: 80%;
+	//text-align: justify;
+}
+
+.center > * {
+	justify-content: center;
+}
+
+.end > * {
+	justify-content: flex-end;
+}
+
+.row > * {
+	display: flex;
+	flex-direction: row;
+}
+
+ol.clean {
+	list-style: none;
+	align-items: center;
+}
+
+.font-mono {
+	font-family: "JetBrains Mono", monospace;
+}
+
+.subconscious {
+	font-family: "Comic Neue", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: normal;
+	font-style: italic;
+}
