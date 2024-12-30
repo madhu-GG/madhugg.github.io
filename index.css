@@ -21,7 +21,7 @@ body {
 	border-radius: 0.6em;
 }
 
-.content > section {
+.content>section {
 	padding: 0.6em;
 	max-width: 90%;
 }
@@ -31,15 +31,15 @@ p {
 	//text-align: justify;
 }
 
-.center > * {
+.center>* {
 	justify-content: center;
 }
 
-.end > * {
+.end>* {
 	justify-content: flex-end;
 }
 
-.row > * {
+.row>* {
 	display: flex;
 	flex-direction: row;
 }
